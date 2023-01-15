@@ -380,3 +380,15 @@ Footer Section Styles
 Media Query for responsiveness
 ===============================
 */
+/* For smaller or mobile devices */
+@media screen and (max-width: 586px) {
+    .nav-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-container h3 {
+        font-size: 130%;
+        line-height: 30px;
+        text-align: center;
+    }
+}
