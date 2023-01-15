@@ -385,6 +385,11 @@ Media Query for responsiveness
 */
 
 @media screen and (max-width: 586px) {
+    /* 
+    ======================================
+    Header :: Navigation Section Styles
+    ======================================
+    */
     .nav-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -395,6 +400,11 @@ Media Query for responsiveness
         text-align: center;
     }
 
+    /* 
+    ======================================
+    Main :: Quick Features Section Styles
+    ======================================
+    */
     .quick-features {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -403,26 +413,50 @@ Media Query for responsiveness
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* 
+    ======================================
+    Main :: Enjoy Features Section Styles
+    ======================================
+    */
     .enjoy-features {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* 
+    ==============================
+    Main :: Facts Section Styles
+    ==============================
+    */
     .fact-items {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* 
+    ================================
+    Main :: Sponsors Section Styles
+    ================================
+    */
     .sponsors-logos {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
 
+    /* 
+    ================================
+    Main :: Blogs Section Styles
+    ================================
+    */
     .our-blogs {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* 
+    ======================
+    Footer Section Styles
+    ======================
+    */
     .footer {
         margin-bottom: 130px;
     }
-
 }
