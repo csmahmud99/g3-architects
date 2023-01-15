@@ -184,7 +184,7 @@ Main :: Facts Section Styles
 }
 
 .fact-items-container {
-    padding: 40px 15px;
+    padding: 40px 15px 0px;
 }
 
 .fact-items {
@@ -201,4 +201,26 @@ Main :: Facts Section Styles
     padding: 20px;
     width: 75%;
     height: 70%;
+}
+
+/* 
+================================
+Main :: Sponsors Section Styles
+================================
+*/
+.sponsors-description {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsors-logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.sponsors-logos img {
+    width: 100px;
+    height: 30px;
 }
