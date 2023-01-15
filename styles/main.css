@@ -380,6 +380,10 @@ Media Query for responsiveness
 ===============================
 */
 /* For smaller or mobile devices */
+/* 
+    Below code of media query is tested for 'Iphone SE and Iphone XR' devices in Google Chrome Browser. I have understood basic media query knowledge and I have done this with that. This is a very basic media query code. If this code is accepted, then I will try to do proper pin-point responsiveness using more advanced media query coding.
+*/
+
 @media screen and (max-width: 586px) {
     .nav-container {
         grid-template-columns: repeat(1, 1fr);
