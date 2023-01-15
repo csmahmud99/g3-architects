@@ -357,3 +357,12 @@ Footer Section Styles
     line-height: 23px;
     color: #424242;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #FF900E;
+}
+
+.footer a:hover {
+    color: blue;
+}
