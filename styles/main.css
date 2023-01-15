@@ -186,7 +186,6 @@ Main :: Enjoy Features Section Styles
 .enjoy-features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(3, 200px); */
     grid-column-gap: 30px;
     align-items: center;
 }
@@ -391,4 +390,35 @@ Media Query for responsiveness
         line-height: 30px;
         text-align: center;
     }
+
+    .quick-features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quick-features-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .enjoy-features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponsors-logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .our-blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        margin-bottom: 130px;
+    }
+
 }
